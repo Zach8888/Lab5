@@ -10,6 +10,7 @@
 public class Bank {
 
     public String bankName;
+    //private int bankBalance;
 
     public Bank() {
         bankName = "Illini Bank";
@@ -29,8 +30,12 @@ public class Bank {
         /*
          * Implement this function
          */
+        if (bankAccount.getAccountBalance() - amount >= 0) {
+        bankAccount.setAccountBalance(bankAccount.getAccountBalance() - amount);
+        return true;
+        }
+        return false;
     }
-
     /**
      * Deposit money in an account.
      * <p>
