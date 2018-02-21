@@ -50,6 +50,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return true;
     }
 
     /**
@@ -69,6 +70,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return true;
     }
 
     /**
@@ -94,6 +96,7 @@ public class Bank {
         /*
          * Implement this function
          */
+        return 5;
     }
 
     /**
